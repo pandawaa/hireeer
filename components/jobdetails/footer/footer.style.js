@@ -1,6 +1,6 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from "react-native"
 
-import { COLORS, FONT, SIZES } from "../../../constants";
+import { COLORS, FONT, SIZES } from "../../../constants"
 
 const styles = StyleSheet.create({
   container: {
@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
   applyBtn: {
     flex: 1,
     backgroundColor: "#FE7654",
-    height: "100%",
+    width: 55,
+    height: 55,
     justifyContent: "center",
     alignItems: "center",
     marginLeft: SIZES.medium,
@@ -42,6 +43,6 @@ const styles = StyleSheet.create({
     color: COLORS.white,
     fontFamily: FONT.bold,
   },
-});
+})
 
-export default styles;
+export default styles
